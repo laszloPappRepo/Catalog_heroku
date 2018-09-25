@@ -1,0 +1,222 @@
+#body {
+    width: auto;
+    height: auto;
+    background-image:
+                    url("../static/metal-lockscreen.jpg");
+}
+
+#main{
+
+}
+
+#files {
+    border-radius: 8px;
+    background-color: #ffffeb;
+}
+
+#header {
+    height: 100px;
+    width: 90%;
+
+    margin-right: auto;
+    margin-left: auto;
+    background-color: ;
+    background-image:
+        url("../static/header.png");
+    opacity: 0.4;
+    border-radius: 8px;
+}
+
+#multi{
+    width: 90%;
+    float: right;
+    text-align: left;
+    text-shadow: 2px 2px 8px black;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    padding-left: 200px;
+    letter-spacing: 5px;
+    color:white;
+    font-size: 32px;
+}
+
+#distText{
+    width: 90%;
+    float: right;
+    text-align: left;
+    text-shadow: 2px 2px 8px #b35900;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    padding-left: 200px;
+    letter-spacing: 5px;
+    color:white;
+}
+
+#myContainer {
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#formBody{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: ;
+
+    border-radius: 8px;
+}
+
+#uploadContainer{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+    background-image:
+        url("../static/Transparent-background.png");
+}
+
+#distContainer{
+    width: 90%;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: ;
+    border-radius: 8px;
+    background-image:
+            url("../static/Transparent-background.png");
+}
+
+#files{
+
+}
+
+#fileNum{
+    display: block;
+    color: #21160b;
+}
+
+#fileSize{
+    text-color: #ffffeb;
+    color: #ffffeb;
+}
+
+#multiP{
+    border-radius: 8px;
+    color:#995c00;
+}
+
+#single{
+    color:#ffa642;
+}
+
+#message{
+    color:#ffffeb;
+}
+
+#success{
+    color:#cb6500;
+}
+
+#upList{
+    color:#ffffeb;
+}
+
+#list{
+    color:#ffffeb;
+}
+
+#fileWindow{
+    width: 90%;
+    height: 200px;
+    overflow: auto;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 10px;
+    text-decoration: light;
+
+}
+
+.w3-button{
+    border-radius: 8px;
+    background-image:
+            url("../static/Transparent-background.png");
+    color: white;
+}
+
+/* The side navigation menu */
+#openNav{
+    position: fixed;
+}
+
+#closebtn{
+
+}
+
+.sidenav {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image:
+        url("../static/Transparent-background.png");
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    padding-top: 30px;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #634c31;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+/* Progress bar */
+#selectedFiles{
+  color: #ffffeb;
+}
+
+#progressBar{
+   height: 40px;
+   width: 70%;
+   margin-bottom: 20px;
+   border-radius: 8px;
+}
+
+#bar{
+   height: 90%;
+   color: white;
+   background-image:
+          url("../static/Transparent-background.png");
+   width: 0%;
+   border-radius: 8px;
+}
+
+
+
+

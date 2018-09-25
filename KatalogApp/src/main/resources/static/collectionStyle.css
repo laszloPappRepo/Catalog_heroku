@@ -1,0 +1,222 @@
+#body {
+    width: auto;
+    height: auto;
+    font-family: "Lato", sans-serif;
+    background-image:
+                url("../static/metal-lockscreen.jpg");
+}
+
+#myContainer {
+}
+
+#title{
+    color: #ffffeb;
+    width: 280px;
+}
+
+#pub{
+    color: #ffffeb;
+}
+
+#done{
+    color: #ffffeb;
+}
+
+#headSection{
+    width: auto;
+}
+
+#header {
+    height: 100px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #a6a6a6;
+    background-image:
+            url("../static/header.png");
+    opacity: 0.7;
+    border-radius: 8px;
+}
+
+#head{
+    text-align: right;
+    text-shadow: 2px 2px 8px #b35900;
+    padding-top: 40px;
+    padding-right: 60px;
+    letter-spacing: 5px;
+    color:white;
+}
+
+#thead{
+    width: auto;
+    height: auto;
+    background-image:
+                url("../static/Transparent-background.png");
+}
+
+#message{
+    color:#ffffeb;
+}
+
+#headMenu{
+    height: 80px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:
+                url("../static/Transparent-background.png");
+}
+
+#table{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mess{
+    padding-top: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#search{
+    float: left;
+    color: black;
+
+}
+
+#searchField{
+    width: 200px;
+    height: 30.4px;
+    border-radius: 8px;
+}
+
+.w3-button{
+    border-radius: 8px;
+    background-image:
+          url("../static/Transparent-background.png");
+    color: white;
+}
+
+#asc{
+    float: right;
+    padding-left: 50px;
+}
+
+#desc{
+    float: right;
+    padding-left: 50px;
+}
+
+#ref{
+    float: right;
+    padding-left: 50px;
+}
+
+#refresh{
+    padding-top: 10%;
+}
+
+#tableEntity{
+    background-image:
+            url("../static/Transparent-background.png");
+}
+
+.table{
+
+}
+
+#notes{
+    width: 500px;
+    height: 170px;
+    overflow: auto;
+    text-decoration: light;
+    color: #ffffeb;
+    background-image:
+                url("../static/Transparent-background.png");
+}
+
+#done{
+    width: 40px;
+}
+
+h1 {
+    color: #c9d3b7;
+}
+
+/* The side navigation menu */
+#openNav{
+    position: fixed;
+}
+
+.sidenav {
+        height: 100%;
+            width: 0%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-image:
+                url("../static/Transparent-background.png");
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+}
+
+.sidenav a {
+       padding: 6px 8px 6px 16px;
+           text-decoration: none;
+           font-size: 25px;
+           color: white;
+           display: block;
+           padding-top: 30px;
+           transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #634c31;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*image zoom menu*/
+.zoom {
+    padding: ;
+    transition: transform .7s;
+    width: 120px;
+    height: 170px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(3.0); /* IE 9 */
+    -webkit-transform: scale(3.0); /* Safari 3-8 */
+    transform: scale(3.0);
+}
+
+/*text zoom menu*/
+.zoomString {
+    transition: transform .7s;
+    width: auto;
+    height: auto;
+}
+
+.zoomString:hover {
+    -ms-transform: scale(1.4); /* IE 9 */
+    -webkit-transform: scale(1.4); /* Safari 3-8 */
+    transform: scale(1.4);
+}
